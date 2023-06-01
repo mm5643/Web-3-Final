@@ -516,6 +516,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 0
+    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -524,60 +532,60 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/sect0.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 3
-    },
-    "\/dev\/content\/sect1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 3
-    },
-    "\/dev\/content\/sect2.kit" : {
+    "\/dev\/content\/product\/sect0.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/dev\/content\/Product\/sect0.html",
       "oF" : 2
     },
-    "\/dev\/content\/sect3.kit" : {
+    "\/dev\/content\/product\/sect1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/sect3.html",
+      "oAP" : "\/dev\/content\/Product\/sect1.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/product\/sect2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Product\/sect2.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/product\/sect3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/sect3.html",
       "oF" : 0
     },
-    "\/dev\/content\/sect4.kit" : {
+    "\/dev\/content\/product\/sect4.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/sect4.html",
+      "oAP" : "\/dev\/content\/product\/sect4.html",
       "oF" : 0
     },
-    "\/dev\/content\/sect5.kit" : {
+    "\/dev\/content\/product\/sect5.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/sect5.html",
+      "oAP" : "\/dev\/content\/product\/sect5.html",
       "oF" : 0
     },
-    "\/dev\/content\/sect6.kit" : {
+    "\/dev\/content\/product\/sect6.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/sect6.html",
+      "oAP" : "\/dev\/content\/product\/sect6.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -776,21 +784,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_toasters.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_toasters.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

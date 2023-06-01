@@ -367,6 +367,6 @@ header {
 /* =============
     Footer
 ============= */
-/* =============
-    Toasters
-============= */
+footer {
+  background-color: black;
+}
