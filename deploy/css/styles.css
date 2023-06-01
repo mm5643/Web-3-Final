@@ -360,6 +360,10 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background: black;
+}
+
 /* =============
     Footer
 ============= */
