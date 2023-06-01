@@ -1,0 +1,44 @@
+#d1{
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(16);
+        margin: 16px;
+    }
+
+    form{
+        margin: 10px;
+        align-items: center;
+        
+        
+        
+    }
+
+    #d3{
+        ul{
+            margin: 16px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        
+    }
+
+    #d5{
+        form{
+            margin: 10px;
+            align-items: center;
+            
+            input{
+                border: none;
+                border-radius: 0%;
+                background-color: var(--egret);
+                width: 325px;
+                height: 30px;
+            }
+            
+            
+            
+        }
+        
+
+    }
+}

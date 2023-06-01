@@ -412,6 +412,88 @@ footer img {
   font-size: 1rem;
 }
 
+#c1 h1 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 16px;
+}
+#c1 h3 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+#c1 p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+#c1 img {
+  width: 168px;
+  height: 141px;
+}
+
+#c2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#p0 h1 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 16px;
+}
+
+#p1 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#p1 ul label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+#p1 ul li {
+  margin: 5px 16px 16px 16px;
+}
+
+#p2 ul li {
+  gap: 10px;
+}
+#p2 form {
+  margin: 10px;
+  align-items: center;
+}
+#p2 form input {
+  border: none;
+  border-radius: 0%;
+  background-color: var(--egret);
+  width: 325px;
+  height: 30px;
+}
+
+#d1 h1 {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 16px;
+}
+#d1 form {
+  margin: 10px;
+  align-items: center;
+}
+#d1 #d3 ul {
+  margin: 16px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#d1 #d5 form {
+  margin: 10px;
+  align-items: center;
+}
+#d1 #d5 form input {
+  border: none;
+  border-radius: 0%;
+  background-color: var(--egret);
+  width: 325px;
+  height: 30px;
+}
+
 #t1 {
   display: grid;
   grid-template-columns: 100%;

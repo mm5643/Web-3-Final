@@ -1,0 +1,32 @@
+#c1{
+
+    
+
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(16);
+        margin: 16px;
+    }
+
+    h3{
+        font-weight: 700;
+        font-size: rem-calc(16);
+    }
+
+    p{
+        font-weight: 300;
+        font-size: rem-calc(16);
+    }
+
+    img{
+        width: 168px;
+        height: 141px;
+    }
+
+   
+}
+
+#c2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

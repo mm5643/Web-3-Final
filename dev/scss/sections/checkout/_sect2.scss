@@ -1,0 +1,48 @@
+#p0{
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(16);
+        margin: 16px;
+    }
+}
+
+#p1{
+    ul{
+        label{
+            font-weight: 700;
+            font-size: rem-calc(16);
+        }
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        li{
+            margin: 5px 16px 16px 16px;
+
+        }
+    }
+}
+
+
+
+#p2{
+
+    ul{
+        li{
+            gap: 10px;
+        }
+    }
+    form{
+        margin: 10px;
+        align-items: center;
+        
+        input{
+            border: none;
+            border-radius: 0%;
+            background-color: var(--egret);
+            width: 325px;
+            height: 30px;
+        }
+        
+        
+        
+    }
+}
