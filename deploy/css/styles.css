@@ -330,6 +330,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -341,6 +349,15 @@ body {
 /* =============
     Buttons
 ============= */
+button {
+  padding: 4.5px 5px;
+  background-color: var(--americangold);
+  color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
 /* =============
     Forms
 ============= */
@@ -367,6 +384,12 @@ textarea {
 ============= */
 header {
   background: black;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+header img {
+  width: 60px;
+  height: 60px;
 }
 
 /* =============
@@ -375,24 +398,65 @@ header {
 footer {
   background-color: black;
 }
-
-h2 {
-  font-weight: 500;
-  font-size: 2rem;
+footer img {
+  width: 60px;
+  height: 60px;
 }
 
-h1 {
+#toasters a {
+  padding: 4.5px 5px;
+  background-color: var(--americangold);
+  color: white;
+  border: none;
   font-weight: 900;
-  font-size: 2.25rem;
-}
-
-a {
-  font-weight: 400;
   font-size: 1rem;
 }
 
 #t1 {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  align-items: center;
+  grid-template-columns: 100%;
+  margin: 16px;
+}
+#t1 h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+#t1 h1 {
+  font-weight: 900;
+  font-size: 2.25rem;
+  text-align: center;
+}
+#t1 a {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#t2 {
+  margin: 16px;
+}
+#t2 p {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+#t2 img {
+  height: 161px;
+  width: 161px;
+}
+#t2 ul {
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#t2 ul li {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  #t2 ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
 }

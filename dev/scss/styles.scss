@@ -19,5 +19,19 @@
 @import "layout/_footer";
 
 // Sections Styles
-// @import "sections/_toasters";
+@import "sections/product/_sect0";
+@import "sections/product/_sect1";
+@import "sections/product/_sect2";
+@import "sections/product/_sect3";
+@import "sections/product/_sect4";
+@import "sections/product/_sect5";
+@import "sections/product/_sect6";
+
+// Sections Styles
+@import "sections/checkout/_sect1";
+@import "sections/checkout/_sect2";
+@import "sections/checkout/_sect3";
+@import "sections/checkout/_sect4";
+
+// Sections Styles
 @import "sections/thankyou/_sect1";

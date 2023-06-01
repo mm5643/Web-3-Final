@@ -4,4 +4,11 @@
 
 header{
     background: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    img{
+        width: 60px;
+        height: 60px;
+    }
 }

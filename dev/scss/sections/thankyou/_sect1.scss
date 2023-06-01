@@ -1,21 +1,68 @@
-h2{
-    font-weight: 500;
-    font-size: rem-calc(32);
-}
 
-h1{
-    font-weight: 900;
-    font-size: rem-calc(36);
-}
-
-a{
-    font-weight: 400;
-    font-size: rem-calc(16);
-}
 
 #t1{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    align-items: center;
 
+    h2{
+        font-weight: 500;
+        font-size: rem-calc(32);
+        text-align: center;
+    }
+    
+    h1{
+        font-weight: 900;
+        font-size: rem-calc(36);
+        text-align: center;
+    }
+    
+    
+    a{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        text-align: center;
+    }
+
+    display: grid;
+    grid-template-columns: 100%;
+    // grid-template-areas: ". sectt1 .";
+
+    margin: 16px;
+
+}
+
+
+
+#t2{
+
+    margin: 16px;
+    p{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        text-align: center;
+    }
+    
+
+    img{
+        height: 161px;
+        width: 161px;
+    }
+    ul{
+        gap: 16px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        li{
+            text-align: center;
+        }
+
+    }
+
+    @include xl {
+        ul{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            align-items: center;
+        }
+       
+
+    }
+    
 }
