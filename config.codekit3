@@ -133,11 +133,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/dolce gavana.png" : {
+    "\/deploy\/img\/dolcegavana.png" : {
       "ft" : 32768,
       "iS" : 472946,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/dolce gavana.png",
+      "oAP" : "\/deploy\/img\/dolcegavana.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -532,6 +532,38 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
+    "\/dev\/content\/checkout\/sect1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 3
+    },
+    "\/dev\/content\/checkout\/sect2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/sect3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/sect4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
     "\/dev\/content\/product\/sect0.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -587,6 +619,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/product\/sect6.html",
       "oF" : 0
+    },
+    "\/dev\/content\/thankyou\/sect1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -784,6 +824,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/thankyou\/_sect1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/thankyou\/_sect1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -333,6 +333,11 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -369,4 +374,25 @@ header {
 ============= */
 footer {
   background-color: black;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.25rem;
+}
+
+a {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#t1 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  align-items: center;
 }
