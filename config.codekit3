@@ -544,97 +544,97 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/checkout.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/content\/checkout\/sect3.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/checkout.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/content\/checkout\/sect4.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/checkout.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect0.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/Product\/sect0.html",
-      "oF" : 2
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/Product\/sect1.html",
-      "oF" : 2
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/Product\/sect2.html",
-      "oF" : 2
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect3.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/product\/sect3.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect4.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/product\/sect4.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect5.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/product\/sect5.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/product\/sect6.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/product\/sect6.html",
-      "oF" : 0
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/thankyou\/sect1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/thankyou.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -648,9 +648,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
@@ -838,8 +838,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout\/_sect1.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -853,8 +853,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout\/_sect2.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -868,8 +868,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout\/_sect3.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -883,8 +883,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout\/_sect4.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -898,8 +898,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect0.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -913,8 +913,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect1.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -928,8 +928,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect2.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -943,8 +943,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect3.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -958,8 +958,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect4.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -973,8 +973,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect5.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -988,8 +988,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/_sect6.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

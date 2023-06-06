@@ -1,4 +1,50 @@
 #toasters{
+
+    #pt1{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+            "t1 t1 t2 t2"
+            ". t3 t3 .";
+        
+        #ts1{
+            grid-area: t1;
+        }
+        
+        #ts2{
+            grid-area: t2;
+        }
+        
+        #ts3{
+            grid-area: t3;
+        }
+
+    }
+  
+    
+    img{
+        width: 164px;
+        height: 164px;
+    }
+    
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(28);
+        text-align: center;
+        align-items: center;
+    }
+
+    h3{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        text-align: center;
+    }
+    
+    align-items: center;
+    margin: 16px;
+
+    
+
     a{
         padding: 4.5px 5px;
         background-color: var(--americangold);
@@ -6,6 +52,7 @@
         border: none;
         font-weight: 900;
         font-size: rem-calc(16);
+        text-align: center;
     }
 
 }

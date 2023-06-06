@@ -1,0 +1,54 @@
+#features{
+    img{
+        width: 74px;
+        height: 76px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(28);
+        text-align: center;
+        align-items: center;
+    }
+
+    h3{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        text-align: center;
+    }
+
+    display: grid;
+    grid-template-columns: 100%;
+        
+    #ff1{
+        ul{
+        align-content: center;
+        gap: 16px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+            "f1 f1 f2 f2"
+            "f3 f3 f4 f4";
+        
+        #f1{
+            grid-area: f1;
+        }
+        
+        #f2{
+            grid-area: f2;
+        }
+        
+        #f3{
+            grid-area: f3;
+        }
+
+        #f4{
+            grid-area: f4;
+        }
+
+        }
+
+        
+        
+    }
+}

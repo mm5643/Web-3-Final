@@ -403,6 +403,39 @@ footer img {
   height: 60px;
 }
 
+#toasters {
+  align-items: center;
+  margin: 16px;
+}
+#toasters #pt1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "t1 t1 t2 t2" ". t3 t3 .";
+}
+#toasters #pt1 #ts1 {
+  grid-area: t1;
+}
+#toasters #pt1 #ts2 {
+  grid-area: t2;
+}
+#toasters #pt1 #ts3 {
+  grid-area: t3;
+}
+#toasters img {
+  width: 164px;
+  height: 164px;
+}
+#toasters h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+  align-items: center;
+}
+#toasters h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
 #toasters a {
   padding: 4.5px 5px;
   background-color: var(--americangold);
@@ -410,6 +443,46 @@ footer img {
   border: none;
   font-weight: 900;
   font-size: 1rem;
+  text-align: center;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: 100%;
+}
+#features img {
+  width: 74px;
+  height: 76px;
+}
+#features h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+  align-items: center;
+}
+#features h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+#features #ff1 ul {
+  align-content: center;
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "f1 f1 f2 f2" "f3 f3 f4 f4";
+}
+#features #ff1 ul #f1 {
+  grid-area: f1;
+}
+#features #ff1 ul #f2 {
+  grid-area: f2;
+}
+#features #ff1 ul #f3 {
+  grid-area: f3;
+}
+#features #ff1 ul #f4 {
+  grid-area: f4;
 }
 
 #c1 h1 {
