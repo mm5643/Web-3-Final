@@ -19,6 +19,20 @@
             grid-area: t3;
         }
 
+        @include xl{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "t1 t2 t3";
+
+            img{
+                width: 455px;
+                height: 517px;
+            }
+        }
+
+        
+
     }
   
     

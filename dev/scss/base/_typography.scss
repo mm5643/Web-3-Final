@@ -2,6 +2,28 @@
     Typography
 ============= */
 
+.producttext{
+    h1{
+        font-weight: 700;
+        font-size: rem-calc(28);
+        text-align: center;
+        align-items: center;
+    }
+
+    h3,p{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        text-align: center;
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: rem-calc(24);
+        text-align: center;
+        align-items: center;
+    }
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
