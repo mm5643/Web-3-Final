@@ -454,17 +454,6 @@ footer img {
   width: 164px;
   height: 164px;
 }
-#toasters h1 {
-  font-weight: 700;
-  font-size: 1.75rem;
-  text-align: center;
-  align-items: center;
-}
-#toasters h3 {
-  font-weight: 400;
-  font-size: 1rem;
-  text-align: center;
-}
 #toasters a {
   padding: 4.5px 5px;
   background-color: var(--americangold);
@@ -482,17 +471,6 @@ footer img {
 #features img {
   width: 74px;
   height: 76px;
-}
-#features h1 {
-  font-weight: 700;
-  font-size: 1.75rem;
-  text-align: center;
-  align-items: center;
-}
-#features h3 {
-  font-weight: 400;
-  font-size: 1rem;
-  text-align: center;
 }
 #features #ff1 ul {
   align-content: center;
@@ -517,28 +495,11 @@ footer img {
 #awards {
   align-content: center;
 }
-#awards h1 {
-  font-weight: 700;
-  font-size: 1.75rem;
-  text-align: center;
-  align-items: center;
-}
-#awards h3, #awards p {
-  font-weight: 400;
-  font-size: 1rem;
-  text-align: center;
-}
 #awards img {
   width: 168px;
   height: 168px;
 }
 
-#reviews h1 {
-  font-weight: 700;
-  font-size: 1.75rem;
-  text-align: center;
-  align-items: center;
-}
 #reviews p {
   font-weight: 300;
   font-size: 1rem;
@@ -594,12 +555,6 @@ footer img {
 #recomend img {
   height: 161px;
   width: 161px;
-}
-#recomend h2 {
-  font-weight: 400;
-  font-size: 1.5rem;
-  text-align: center;
-  align-items: center;
 }
 #recomend h1 {
   font-weight: 700;
