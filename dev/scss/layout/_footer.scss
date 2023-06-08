@@ -53,12 +53,32 @@ footer{
     #footerlist{
         ul{
             li{
+                padding: 5px 10px 5px 10px;
                 a{
                     text-decoration: none;
                     color: white;
                 }
             }
         }
+    }
+
+    #footersocial{
+        padding: 16px;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                button{
+                    border: none;
+                    background-color: transparent;
+                    color: white;
+                    font-size: rem-calc(20);
+                }
+                
+
+            }
+        }
+
     }
 }
 
@@ -69,6 +89,6 @@ footer{
 
 // <i class="fa-brands fa-youtube"></i>
 
-//<i class="fa-brands fa-instagram"></i>
+// <i class="fa-brands fa-instagram"></i>
 
-//<i class="fa-brands fa-linkedin"></i>
+// <i class="fa-brands fa-linkedin"></i>

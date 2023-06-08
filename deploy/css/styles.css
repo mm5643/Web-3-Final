@@ -521,9 +521,25 @@ footer #logofooter {
   height: 101px;
   padding: 16px;
 }
+footer #footerlist ul li {
+  padding: 5px 10px 5px 10px;
+}
 footer #footerlist ul li a {
   text-decoration: none;
   color: white;
+}
+footer #footersocial {
+  padding: 16px;
+}
+footer #footersocial ul {
+  display: flex;
+  justify-content: center;
+}
+footer #footersocial ul li button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.25rem;
 }
 
 #toasters {
@@ -686,6 +702,9 @@ footer #footerlist ul li a {
   text-align: center;
 }
 
+#c1 {
+  text-align: center;
+}
 #c1 h1 {
   font-weight: 700;
   font-size: 1rem;
@@ -709,6 +728,9 @@ footer #footerlist ul li a {
   grid-template-columns: 50% 50%;
 }
 
+#p0 {
+  text-align: center;
+}
 #p0 h1 {
   font-weight: 700;
   font-size: 1rem;
@@ -742,6 +764,9 @@ footer #footerlist ul li a {
   height: 30px;
 }
 
+#d1 {
+  text-align: center;
+}
 #d1 h1 {
   font-weight: 700;
   font-size: 1rem;
@@ -766,6 +791,10 @@ footer #footerlist ul li a {
   background-color: var(--egret);
   width: 325px;
   height: 30px;
+}
+
+#r0 {
+  text-align: center;
 }
 
 #t1 {
