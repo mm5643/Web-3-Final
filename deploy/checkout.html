@@ -17,19 +17,49 @@
 <body>
     <header>
         <section>
-            <img src="img/Hamburger_Icon.png" alt="burger icon">
+            <div id="burger-container">
+                <button>
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </section>
     
-        <Section>
-            <img src="img/logo.png" alt="SMEG logo">
-        </Section>
-    
-        <section>
-            <img src="img/Search_icon.png" alt="search">
+        <section id="logo-nav">
+            <div id="logo-image">
+                <a href="index.html"><img src="img/logo.png" alt="SMEG logo"></a>
+            </div>
+            
         </section>
+        
     
-        <section>
-            <img src="img/Bag_Icon.png" alt="bag icon">
+        <nav id="nav-container">
+            <ul>
+                <li>
+                    <a href="#toaster">TOASTERS</a>
+                </li>
+                <li>
+                    <a href="#features">FEATURES & FUNCTIONALITY</a>
+                </li>
+                <li>
+                    <a href="#awards">AWARDS</a>
+                </li>
+                <li>
+                    <a href="#reviews">REVIEWS</a>
+                </li>
+                <li>
+                    <a href="#aesthetic">AESTHETIC</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <section id="nav-logo">
+            <section id="search">
+                <img src="img/Search_icon.png" alt="search">
+            </section>
+        
+            <section id="cout">
+                <a href="checkout.html"><img src="img/Bag_Icon.png" alt="bag icon"></a>
+            </section>
         </section>
     
     </header>
@@ -186,19 +216,20 @@
     <script src="js/scripts-min.js"></script>
     <footer>
                                 <div>
-                                    <section>
-                                        <h3>Subscribe to Newsletter</h3>
+                                    <h3>Subscribe to Newsletter</h3>
+                                    <section id="sn">
                                         <form action="#">
                                             <input type="email" placeholder="Email Address">
                                             <button>SUBSCRIBE</button>
                                         </form>
                                     </section>
                             
-                                    <section>
-                                        <img src="img/logo.png" alt="SMEG logo">
+                                    <section id="logofooter">
+                                        <div id="footerimage"></div>
+                                        <!-- <img src="img/logo.png" alt="SMEG logo"> -->
                                     </section>
                             
-                                    <section>
+                                    <section id="footerlist">
                                         <ul>
                                             <li>
                                                 <a href="#">CONTACTS</a>

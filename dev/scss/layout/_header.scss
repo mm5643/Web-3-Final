@@ -3,12 +3,123 @@
 ============= */
 
 header{
+    padding-top: 5px;
     background: black;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 15% 55% 30%;
+    grid-template-areas: 
+    "burger logo nav2";
 
-    img{
-        width: 60px;
-        height: 60px;
+    #burger-container{
+        grid-area: burger;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 16px;
+        padding: none;
+
+        button{
+            border: none;
+            background-color: transparent;
+            color: var(--americangold);
+            font-size: rem-calc(30);
+            align-items: center;
+            // border: 1px solid red;
+        }
     }
+
+    #logo-nav{
+        text-align: right;
+        padding-right: 28px;
+        margin-top: 3px;
+        #logo-image{
+            // background-image: url(../img/logo.png);
+            // background-size: contain;
+            // height: 57px;
+            // width: 157px;
+            // background-position: right;
+            img{
+                width: 157px;
+                height: 57px;
+            }
+            
+        }
+        grid-area: logo;
+        // border: 1px solid red;
+    }
+
+    #nav-container{
+        display: none;
+        grid-area: nav;
+
+        ul{
+            // margin-left: auto;
+                display: flex;
+                justify-content: flex-end;
+            li{
+                padding: 5px;
+                margin: 16px 10px;
+                a:link,a:visited{
+                    color: var(--white);
+                    font-size: rem-calc(12);
+                    font-weight: 300;
+                    text-decoration: none;
+                    transition: 0.25s;
+
+
+                    &:hover, &:active{
+                        color: var(--americangold);
+
+                    }
+                }
+            }
+        }
+    }
+
+    #nav-logo{
+        padding-right: 5px;
+        gap: 5px;
+        grid-area: nav2;
+        display: flex;
+        justify-content: flex-end;
+        border-left: 1px solid var(--americangold);
+
+        #search{
+            img{
+                width: 52px;
+                height: 67px;
+            }
+        }
+
+        #cout{
+            img{
+                width: 48px;
+                height: 61px;
+            }
+        }
+    }
+
+    @include lg{
+            display: grid;
+            grid-template-columns: 20% 70% 10%;
+            grid-template-areas: 
+            "logo nav nav2";
+
+        #burger-container{
+            display: none;
+        }
+
+        #nav-container{
+            display: list-item;
+            
+        }
+
+        #logo-nav{
+            text-align: left;
+            padding-left: 16px;
+        }
+
+    }
+    
+
+    
 }

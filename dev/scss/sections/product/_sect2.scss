@@ -1,9 +1,27 @@
 #awards{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    align-items: center;
 
-    align-content: center;
-
-    img{
-        width: 168px;
-        height: 168px;
+    #a1{
+        #gd{
+            background-image: url(../img/GoodDesign.jpg);
+            background-size: cover;
+            width: 168px;
+            height: 153px;
+            background-position: center;
+        }
+        
     }
+
+    p{
+        padding: 20px;
+        text-align: justify;
+    }
+
+    // img{
+    //     width: 168px;
+    //     height: 168px;
+    // }
 }

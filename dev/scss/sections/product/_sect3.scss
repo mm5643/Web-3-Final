@@ -1,5 +1,5 @@
 #reviews{
-
+    text-align: center;
     p{
         font-weight: 300;
         font-size: rem-calc(16);
@@ -24,7 +24,7 @@
             padding: 16px;
             background-color: black;
             border-radius: 15px;
-            margin: 16px;
+            margin: 16px 5px 16px 16px;
     
         }
     
@@ -34,7 +34,7 @@
             padding: 16px;
             background-color: black;
             border-radius: 15px;
-            margin: 16px;
+            margin: 16px 16px 16px 5px;
         }
     }
 
