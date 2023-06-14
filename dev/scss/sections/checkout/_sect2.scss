@@ -8,6 +8,7 @@
 }
 
 #p1{
+    
     ul{
         label{
             font-weight: 700;
@@ -16,6 +17,7 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         li{
+            text-align: center;
             margin: 5px 16px 16px 16px;
 
         }

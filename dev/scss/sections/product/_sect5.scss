@@ -1,0 +1,48 @@
+#aesthetic{
+    margin-bottom: 16px;
+    display: grid;
+    grid-template-columns: 100%;
+    border-bottom: 0.5px solid black;
+
+    
+    text-align: center;
+    #a1{
+        padding: 5px 0px 10px 15px;
+        #a11{
+            background-image: url(../img/SMEG_Lifestyle.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 359px;
+            height: 211px;
+            background-position: center;
+        }
+    }
+
+
+    #a2{
+        padding: 5px 5px 10px 5px;
+        #a22{
+            padding: 10px;
+            background-image: url(../img/SMEG_Lifestyle1.jpg);
+            background-size: cover;
+            width: 359px;
+            height: 211px;
+            background-position: center;
+        }
+    }
+
+    #a3{
+
+        #a33{
+            a{
+            text-decoration: none;
+            padding: 4.5px 5px;
+            background-color: var(--americangold);
+            color: white;
+            border: none;
+            font-weight: 900;
+            font-size: rem-calc(16);
+            }
+        }
+    }
+}

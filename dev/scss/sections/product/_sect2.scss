@@ -3,21 +3,109 @@
     grid-template-columns: 100%;
     text-align: center;
     align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 0.5px solid black;
 
-    #a1{
-        #gd{
-            background-image: url(../img/GoodDesign.jpg);
-            background-size: cover;
-            width: 168px;
-            height: 153px;
-            background-position: center;
+    #a0{
+        #a1{
+            margin-bottom: 10px;
+            text-align: center;
+            #gd{
+                background-image: url(../img/GoodDesign.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
+            }
+            
         }
-        
+    
+        #a2{
+            margin-bottom: 10px;
+            #if{
+                background-image: url(../img/if-design_award.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
+            }
+        }
+    
+        #a3{
+            margin-bottom: 10px;
+            #reddot{
+                background-image: url(../img/reddotdesignawards.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
+            }
+        }
+    
+        p{
+            padding: 16px;
+            text-align: left;
+        }
     }
+    
 
-    p{
-        padding: 20px;
-        text-align: justify;
+    @include xl{
+        #a0{
+            display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: 
+        "a1 a1 a2 a2"
+        "a1 a1 a3 a3";
+            #a1{
+                grid-area: a1;
+                // margin-bottom: 10px;
+                text-align: left;
+                #gd{
+                    background-image: url(../img/GoodDesign.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 584px;
+                    background-position: center;
+                }
+                
+            }
+        
+            #a2{
+                grid-area: a2;
+                // margin-bottom: 10px;
+                #if{
+                    background-image: url(../img/if-design_award.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 281px;
+                    background-position: center;
+                }
+            }
+        
+            #a3{
+                grid-area: a3;
+                // margin-bottom: 10px;
+                #reddot{
+                    background-image: url(../img/reddotdesignawards.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 272px;
+                    background-position: center;
+                }
+            }
+        
+            p{
+                padding: 16px;
+                text-align: left;
+            }
+        }
+
     }
 
     // img{

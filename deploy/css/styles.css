@@ -359,6 +359,25 @@ ul li {
   align-items: center;
 }
 
+@media (min-width: 1200px) {
+  .producttext h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+  .producttext h3, .producttext p {
+    font-weight: 400;
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  .producttext h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -517,9 +536,11 @@ footer #logofooter {
   text-align: center;
   background-image: url(../img/logo.png);
   background-size: contain;
-  width: 388px;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 101px;
-  padding: 16px;
+  padding: 16px 0px 16px 0px;
+  background-position: center;
 }
 footer #footerlist ul li {
   padding: 5px 10px 5px 10px;
@@ -543,59 +564,124 @@ footer #footersocial ul li button {
 }
 
 #toasters {
-  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid black;
+  text-align: center;
+}
+#toasters #ts0 #ts {
   margin: 16px;
 }
-#toasters #pt1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "t1 t1 t2 t2" ". t3 t3 .";
-}
-#toasters #pt1 #ts1 {
-  grid-area: t1;
-}
-#toasters #pt1 #ts2 {
-  grid-area: t2;
-}
-#toasters #pt1 #ts3 {
-  grid-area: t3;
-}
-@media (min-width: 1200px) {
-  #toasters #pt1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "t1 t2 t3";
-  }
-  #toasters #pt1 img {
-    width: 455px;
-    height: 517px;
-  }
-}
-#toasters img {
-  width: 164px;
-  height: 164px;
-}
-#toasters a {
-  padding: 4.5px 5px;
+#toasters #ts0 #ts a {
+  text-decoration: none;
+  padding: 4.5px 10px;
   background-color: var(--americangold);
   color: white;
   border: none;
   font-weight: 900;
   font-size: 1rem;
-  text-align: center;
+  border-radius: 12px;
+}
+#toasters #pt1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "t1 t1 t2 t2" ". t3 t3 .";
+  align-items: center;
+}
+#toasters #pt1 #ts1 {
+  grid-area: t1;
+}
+#toasters #pt1 #ts1 #ts11 {
+  background-image: url(../img/2slice.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 153px;
+  background-position: center;
+}
+#toasters #pt1 #ts2 {
+  grid-area: t2;
+}
+#toasters #pt1 #ts2 #ts22 {
+  background-image: url(../img/4slice.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 153px;
+  background-position: center;
+}
+#toasters #pt1 #ts3 {
+  grid-area: t3;
+}
+#toasters #pt1 #ts3 #ts33 {
+  background-image: url(../img/4slot.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 153px;
+  background-position: center;
+}
+@media (min-width: 1200px) {
+  #toasters #ts0 #ts a {
+    text-decoration: none;
+    padding: 4.5px 20px;
+    background-color: var(--americangold);
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-size: 2.25rem;
+    border-radius: 30px;
+  }
+  #toasters #pt1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "t1 t2 t3";
+  }
+  #toasters #pt1 #ts1 {
+    grid-area: t1;
+  }
+  #toasters #pt1 #ts1 #ts11 {
+    background-image: url(../img/2slice.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 420px;
+    background-position: center;
+  }
+  #toasters #pt1 #ts2 {
+    grid-area: t2;
+  }
+  #toasters #pt1 #ts2 #ts22 {
+    background-image: url(../img/4slice.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 420px;
+    background-position: center;
+  }
+  #toasters #pt1 #ts3 {
+    grid-area: t3;
+  }
+  #toasters #pt1 #ts3 #ts33 {
+    background-image: url(../img/4slot.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 420px;
+    background-position: center;
+  }
 }
 
 #features {
   display: grid;
   grid-template-columns: 100%;
-}
-#features img {
-  width: 74px;
-  height: 76px;
+  text-align: center;
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid black;
 }
 #features #ff1 ul {
   align-content: center;
-  gap: 16px;
+  gap: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "f1 f1 f2 f2" "f3 f3 f4 f4";
@@ -603,14 +689,99 @@ footer #footersocial ul li button {
 #features #ff1 ul #f1 {
   grid-area: f1;
 }
+#features #ff1 ul #f1 #f11 {
+  background-image: url(../img/icon-01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 71px;
+  background-position: center;
+}
 #features #ff1 ul #f2 {
   grid-area: f2;
+}
+#features #ff1 ul #f2 #f22 {
+  background-image: url(../img/icon-04.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 71px;
+  background-position: center;
 }
 #features #ff1 ul #f3 {
   grid-area: f3;
 }
+#features #ff1 ul #f3 #f33 {
+  background-image: url(../img/icon-02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 71px;
+  background-position: center;
+}
 #features #ff1 ul #f4 {
   grid-area: f4;
+}
+#features #ff1 ul #f4 #f44 {
+  background-image: url(../img/icon-03.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 71px;
+  background-position: center;
+}
+@media (min-width: 1200px) {
+  #features #ff1 ul {
+    align-content: center;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "f1 f2 f3 f4";
+  }
+  #features #ff1 ul #f1 {
+    grid-area: f1;
+  }
+  #features #ff1 ul #f1 #f11 {
+    background-image: url(../img/icon-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 375px;
+    background-position: center;
+  }
+  #features #ff1 ul #f2 {
+    grid-area: f2;
+  }
+  #features #ff1 ul #f2 #f22 {
+    background-image: url(../img/icon-04.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 375px;
+    background-position: center;
+  }
+  #features #ff1 ul #f3 {
+    grid-area: f3;
+  }
+  #features #ff1 ul #f3 #f33 {
+    background-image: url(../img/icon-02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 375px;
+    background-position: center;
+  }
+  #features #ff1 ul #f4 {
+    grid-area: f4;
+  }
+  #features #ff1 ul #f4 #f44 {
+    background-image: url(../img/icon-03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 375px;
+    background-position: center;
+  }
 }
 
 #awards {
@@ -618,23 +789,100 @@ footer #footersocial ul li button {
   grid-template-columns: 100%;
   text-align: center;
   align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid black;
 }
-#awards #a1 #gd {
+#awards #a0 #a1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+#awards #a0 #a1 #gd {
   background-image: url(../img/GoodDesign.jpg);
-  background-size: cover;
-  width: 168px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 153px;
   background-position: center;
 }
-#awards p {
-  padding: 20px;
-  text-align: justify;
+#awards #a0 #a2 {
+  margin-bottom: 10px;
+}
+#awards #a0 #a2 #if {
+  background-image: url(../img/if-design_award.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 153px;
+  background-position: center;
+}
+#awards #a0 #a3 {
+  margin-bottom: 10px;
+}
+#awards #a0 #a3 #reddot {
+  background-image: url(../img/reddotdesignawards.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 153px;
+  background-position: center;
+}
+#awards #a0 p {
+  padding: 16px;
+  text-align: left;
+}
+@media (min-width: 1200px) {
+  #awards #a0 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "a1 a1 a2 a2" "a1 a1 a3 a3";
+  }
+  #awards #a0 #a1 {
+    grid-area: a1;
+    text-align: left;
+  }
+  #awards #a0 #a1 #gd {
+    background-image: url(../img/GoodDesign.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 584px;
+    background-position: center;
+  }
+  #awards #a0 #a2 {
+    grid-area: a2;
+  }
+  #awards #a0 #a2 #if {
+    background-image: url(../img/if-design_award.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 281px;
+    background-position: center;
+  }
+  #awards #a0 #a3 {
+    grid-area: a3;
+  }
+  #awards #a0 #a3 #reddot {
+    background-image: url(../img/reddotdesignawards.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 272px;
+    background-position: center;
+  }
+  #awards #a0 p {
+    padding: 16px;
+    text-align: left;
+  }
 }
 
 #reviews {
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid black;
   text-align: center;
+  align-items: center;
 }
-#reviews p {
+#reviews h2 {
   font-weight: 300;
   font-size: 1rem;
   text-align: center;
@@ -646,27 +894,242 @@ footer #footersocial ul li button {
   text-align: center;
   color: white;
 }
+#reviews p {
+  display: none;
+}
 #reviews #r0 {
   display: grid;
   grid-template-columns: 50% auto;
 }
-#reviews #r0 #r1 {
+#reviews #r0 #r1 #rr1 {
   width: 136px;
   height: 200px;
   padding: 16px;
   background-color: black;
   border-radius: 15px;
-  margin: 16px 5px 16px 16px;
+  margin: 16px 0px 16px 16px;
 }
-#reviews #r0 #r2 {
+#reviews #r0 #r2 #rr2 {
   width: 136px;
   height: 200px;
   padding: 16px;
   background-color: black;
   border-radius: 15px;
-  margin: 16px 16px 16px 5px;
+  margin: 16px 5px 16px 5px;
+}
+#reviews #r0 #r3 {
+  display: none;
+}
+#reviews #r0 #r4 {
+  display: none;
+}
+#reviews #r0 #r5 {
+  display: none;
+}
+#reviews #r0 #r6 {
+  display: none;
+}
+@media (min-width: 1200px) {
+  #reviews #r0 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    text-align: center;
+  }
+  #reviews #r0 img {
+    height: 45px;
+    width: 225px;
+  }
+  #reviews #r0 h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+  #reviews #r0 h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  #reviews #r0 p {
+    display: contents;
+    font-weight: 300;
+    font-size: relm-calc(16);
+    text-align: left;
+    color: white;
+  }
+  #reviews #r0 #r1 {
+    border: 1px solid red;
+  }
+  #reviews #r0 #r1 #rr1 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 16px 5px 16px 16px;
+  }
+  #reviews #r0 #r2 #rr2 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 16px 5px 16px 16px;
+  }
+  #reviews #r0 #r3 {
+    display: contents;
+  }
+  #reviews #r0 #r3 #rr3 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 16px 5px 16px 16px;
+  }
+  #reviews #r0 #r4 {
+    display: contents;
+  }
+  #reviews #r0 #r4 #rr4 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 16px 16px 16px 5px;
+  }
+  #reviews #r0 #r5 {
+    display: contents;
+  }
+  #reviews #r0 #r5 #rr5 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 16px 5px 16px 16px;
+  }
+  #reviews #r0 #r6 {
+    display: contents;
+  }
+  #reviews #r0 #r6 #rr6 {
+    width: 850px;
+    height: 255px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 16px 16px 16px 5px;
+  }
 }
 
+#history {
+  margin-bottom: 16px;
+  border-bottom: 0.5px solid black;
+}
+#history aside {
+  text-align: left;
+}
+#history #hh1 {
+  padding: 10px 10px 16px 10px;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#history #hh1 #hh11 {
+  background-image: url(../img/alu_samples.jpg);
+  background-size: cover;
+  width: 169px;
+  height: 233px;
+  background-position: center;
+}
+#history #hh2 {
+  padding: 10px 10px 16px 10px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+}
+#history #hh2 #hh22 {
+  background-image: url(../img/Lifestyle_Image3.5.jpg);
+  background-size: cover;
+  width: 163px;
+  height: 233px;
+  background-position: center;
+}
+
+#aesthetic {
+  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: 100%;
+  border-bottom: 0.5px solid black;
+  text-align: center;
+}
+#aesthetic #a1 {
+  padding: 5px 0px 10px 15px;
+}
+#aesthetic #a1 #a11 {
+  background-image: url(../img/SMEG_Lifestyle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 359px;
+  height: 211px;
+  background-position: center;
+}
+#aesthetic #a2 {
+  padding: 5px 5px 10px 5px;
+}
+#aesthetic #a2 #a22 {
+  padding: 10px;
+  background-image: url(../img/SMEG_Lifestyle1.jpg);
+  background-size: cover;
+  width: 359px;
+  height: 211px;
+  background-position: center;
+}
+#aesthetic #a3 #a33 a {
+  text-decoration: none;
+  padding: 4.5px 5px;
+  background-color: var(--americangold);
+  color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+#recomend {
+  margin-bottom: 16px;
+}
+#recomend #rec1 {
+  background-image: url(../img/StandMixers.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 148px;
+  background-position: center;
+}
+#recomend #rec2 {
+  background-image: url(../img/MilkFrother.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 148px;
+  background-position: center;
+}
+#recomend #rec3 {
+  background-image: url(../img/KnivesBlockSet.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 148px;
+  background-position: center;
+}
+#recomend #rec4 {
+  background-image: url(../img/Blenders.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 148px;
+  background-position: center;
+}
 #recomend ul {
   gap: 16px;
   display: grid;
@@ -686,21 +1149,6 @@ footer #footersocial ul li button {
     height: 410px;
   }
 }
-#recomend img {
-  height: 161px;
-  width: 161px;
-}
-#recomend h1 {
-  font-weight: 700;
-  font-size: 1.75rem;
-  text-align: center;
-  align-items: center;
-}
-#recomend h3, #recomend p {
-  font-weight: 400;
-  font-size: 1rem;
-  text-align: center;
-}
 
 #c1 {
   text-align: center;
@@ -708,7 +1156,6 @@ footer #footersocial ul li button {
 #c1 h1 {
   font-weight: 700;
   font-size: 1rem;
-  margin: 16px;
 }
 #c1 h3 {
   font-weight: 700;
@@ -746,6 +1193,7 @@ footer #footersocial ul li button {
   font-size: 1rem;
 }
 #p1 ul li {
+  text-align: center;
   margin: 5px 16px 16px 16px;
 }
 
@@ -770,14 +1218,12 @@ footer #footersocial ul li button {
 #d1 h1 {
   font-weight: 700;
   font-size: 1rem;
-  margin: 16px;
 }
 #d1 form {
   margin: 10px;
   align-items: center;
 }
 #d1 #d3 ul {
-  margin: 16px;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -795,6 +1241,39 @@ footer #footersocial ul li button {
 
 #r0 {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "r1 r1" "r2 r3" ".r4";
+}
+#r0 #r11 {
+  grid-area: r1;
+}
+#r0 #r11 h1 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+#r0 #r22 {
+  grid-area: r2;
+  background-image: url(../img/dolcegavana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 226px;
+  height: 226px;
+  background-position: center;
+}
+#r0 #r22 h3 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+#r0 #r33 {
+  grid-area: r3;
+}
+#r0 #r33 p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+#r0 #r44 {
+  grid-area: r4;
 }
 
 #t1 {

@@ -1,61 +1,150 @@
 #toasters{
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 0.5px solid black;
 
+    #ts0{
+        #ts{
+            margin: 16px;
+            a{
+                text-decoration: none;
+                padding: 4.5px 10px;
+                background-color: var(--americangold);
+                color: white;
+                border: none;
+                font-weight: 900;
+                font-size: rem-calc(16);
+                border-radius: 12px;
+            }
+
+        }
+        
+        
+    }
+    text-align: center;
     #pt1{
+        
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
             "t1 t1 t2 t2"
             ". t3 t3 .";
         
+        
         #ts1{
             grid-area: t1;
+            #ts11{
+                background-image: url(../img/2slice.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
+            }
         }
         
         #ts2{
             grid-area: t2;
+            #ts22{
+                background-image: url(../img/4slice.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
+            }
         }
         
         #ts3{
             grid-area: t3;
-        }
-
-        @include xl{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: 
-            "t1 t2 t3";
-
-            img{
-                width: 455px;
-                height: 517px;
+            #ts33{
+                background-image: url(../img/4slot.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 153px;
+                background-position: center;
             }
         }
-
-        
-
-    }
-  
-    
-    img{
-        width: 164px;
-        height: 164px;
-    }
-    
-    
-    
     align-items: center;
-    margin: 16px;
+
+    // a{
+    //     padding: 4.5px 5px;
+    //     background-color: var(--americangold);
+    //     color: white;
+    //     border: none;
+    //     font-weight: 900;
+    //     font-size: rem-calc(16);
+    //     text-align: center;
+    // }
+}
+
+@include xl{
+    #ts0{
+        #ts{
+            a{
+                text-decoration: none;
+                padding: 4.5px 20px;
+                background-color: var(--americangold);
+                color: white;
+                border: none;
+                font-weight: 900;
+                font-size: rem-calc(36);
+                border-radius: 30px;
+            }
+        }
+    }
+    #pt1{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "t1 t2 t3";
 
     
+    
 
-    a{
-        padding: 4.5px 5px;
-        background-color: var(--americangold);
-        color: white;
-        border: none;
-        font-weight: 900;
-        font-size: rem-calc(16);
-        text-align: center;
+    #ts1{
+        grid-area: t1;
+        #ts11{
+            background-image: url(../img/2slice.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 420px;
+            background-position: center;
+        }
     }
+    
+    #ts2{
+        grid-area: t2;
+        #ts22{
+            background-image: url(../img/4slice.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 420px;
+            background-position: center;
+        }
+    }
+    
+    #ts3{
+        grid-area: t3;
+        #ts33{
+            background-image: url(../img/4slot.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 420px;
+            background-position: center;
+        }
 
+
+}
+
+    }
+    
+
+
+
+}
 }

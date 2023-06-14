@@ -1,6 +1,9 @@
 #reviews{
+    margin-bottom: 16px;
+    border-bottom: 0.5px solid black;
     text-align: center;
-    p{
+    align-items: center;
+    h2{
         font-weight: 300;
         font-size: rem-calc(16);
         text-align: center;
@@ -14,27 +17,187 @@
         color: white;
     }
 
+    p{
+        display: none;
+    }
+
     #r0{
+        
         display: grid;
         grid-template-columns: 50% auto;
 
         #r1{
-            width: 136px;
-            height: 200px;
-            padding: 16px;
-            background-color: black;
-            border-radius: 15px;
-            margin: 16px 5px 16px 16px;
+            #rr1{
+                width: 136px;
+                height: 200px;
+                padding: 16px;
+                background-color: black;
+                border-radius: 15px;
+                margin: 16px 0px 16px 16px;
+            }
+            
     
         }
     
         #r2{
-            width: 136px;
-            height: 200px;
-            padding: 16px;
-            background-color: black;
-            border-radius: 15px;
-            margin: 16px 16px 16px 5px;
+            #rr2{
+                width: 136px;
+                height: 200px;
+                padding: 16px;
+                background-color: black;
+                border-radius: 15px;
+                margin: 16px 5px 16px 5px;
+            }
+            
+        }
+
+        #r3{
+            display: none;
+
+        }
+
+        #r4{
+            display: none;
+            
+        }
+
+        #r5{
+            display: none;
+            
+        }
+
+        #r6{
+            display: none;
+            
+        }
+
+
+    }
+
+    @include xl{    
+        #r0{
+            // background-color: black;
+            display: grid;
+            grid-template-columns: 50% auto;
+            // gap: 10px;
+            text-align: center;
+            
+            img{
+                height: 45px;
+                width: 225px;
+            }
+
+            h2{
+                font-weight: 400;
+                font-size: rem-calc(24);
+                text-align: center;
+                color: white;
+            }
+        
+            h3{
+                font-weight: 500;
+                font-size: rem-calc(32);
+                text-align: center;
+                color: white;
+            }
+
+            p{
+                display: contents;
+                font-weight: 300;
+                font-size: relm-calc(16);
+                text-align: left;
+                color: white;
+            }
+        
+
+    
+            #r1{
+                border: 1px solid red;
+                #rr1{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    margin: 16px 5px 16px 16px;
+                }
+                
+
+        
+            }
+        
+            #r2{
+                #rr2{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    margin: 16px 5px 16px 16px;
+                }
+
+            }
+    
+            #r3{
+                display: contents;
+                #rr3{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    margin: 16px 5px 16px 16px;
+
+                }
+
+               
+                
+            }
+    
+            #r4{
+                display: contents;
+                #rr4{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    margin: 16px 16px 16px 5px;
+                }
+                
+                
+                
+            }
+    
+            #r5{
+                display: contents;
+                #rr5{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 15px;
+                    margin: 16px 5px 16px 16px;
+                }
+                
+                
+            }
+    
+            #r6{
+                display: contents;
+                #rr6{
+                    width: 850px;
+                    height: 255px;
+                    padding: 20px;
+                    background-color: black;
+                    border-radius: 20px;
+                    margin: 16px 16px 16px 5px;
+                }
+                
+                
+            }
+    
+    
         }
     }
 
