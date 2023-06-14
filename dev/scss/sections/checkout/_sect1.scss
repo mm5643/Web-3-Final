@@ -1,32 +1,91 @@
 #c1{
+    border-bottom: 0.5px solid black;
     text-align: center;
-    
-
     h1{
         font-weight: 700;
         font-size: rem-calc(16);
         // margin: 16px;
     }
-
-    h3{
-        font-weight: 700;
-        font-size: rem-calc(16);
+    #c3{
+        margin-left: 10px;
+        h3{
+            text-align: left;
+            font-weight: 700;
+            font-size: rem-calc(16);
+        }
+    
+        p{
+            text-align: left;
+            font-weight: 300;
+            font-size: rem-calc(16);
+        }
     }
 
-    p{
-        font-weight: 300;
-        font-size: rem-calc(16);
+    #c2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+        #cc2{
+            background-image: url(../img/dolcegavana.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 141px;
+            background-position: center;
+        }
     }
+    
 
-    img{
-        width: 168px;
-        height: 141px;
-    }
+    // img{
+    //     width: 168px;
+    //     height: 141px;
+    // }
 
    
 }
 
-#c2{
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+
+@include xl{
+
+    #c1{
+        h1{
+            text-align: left;
+            font-weight: 700;
+            font-size: rem-calc(32);
+            margin: 16px;
+        }
+        #c3{
+            margin-left: 10px;
+            h3{
+                text-align: left;
+                font-weight: 700;
+                font-size: rem-calc(36);
+            }
+        
+            p{
+                text-align: left;
+                font-weight: 300;
+                font-size: rem-calc(32);
+            }
+        }
+    
+        #c2{
+            display: grid;
+        grid-template-columns: 50% 50%;
+    
+        #cc2{
+            background-image: url(../img/dolcegavana.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 429px;
+            background-position: center;
+        }
+    
+        }
+
+    }
+   
+    
 }

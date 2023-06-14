@@ -1,5 +1,6 @@
 #d1{
 
+    border-bottom: 0.5px solid black;
     text-align: center;
     h1{
         font-weight: 700;
@@ -16,6 +17,14 @@
     }
 
     #d3{
+        button{
+            padding: 4.5px 5px;
+            background-color: var(--americangold);
+            color: white;
+            border: none;
+            font-weight: 900;
+            font-size: rem-calc(16);
+        }
         ul{
             // margin: 16px;
             display: grid;
@@ -42,5 +51,59 @@
         }
         
 
+    }
+}
+
+@include xl{
+    #d1{
+
+        text-align: center;
+        h1{
+            text-align: left;
+            font-weight: 700;
+            font-size: rem-calc(32);
+            margin: 16px;
+        }
+    
+        form{
+            margin: 10px;
+            align-items: center;
+            
+            
+            
+        }
+        #d2{
+            #d3{
+                
+                ul{
+                    // margin: 16px;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }
+                
+            }
+        }
+    
+        
+    
+        #d5{
+            form{
+                margin: 10px;
+                align-items: center;
+                
+                input{
+                    border: none;
+                    border-radius: 0%;
+                    background-color: var(--egret);
+                    width: 759px;
+                    height: 30px;
+                }
+                
+                
+                
+            }
+            
+    
+        }
     }
 }

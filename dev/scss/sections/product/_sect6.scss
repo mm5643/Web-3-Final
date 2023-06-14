@@ -49,11 +49,43 @@
                 display: grid;
                 grid-template-columns: repeat(4,1fr);
                 align-items: center;
-           
-                img{
-                    width: 337px;
-                    height: 410px;
+
+                #rec1{
+                    background-image: url(../img/StandMixers.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 313px;
+                    background-position: center;
                 }
+            
+                #rec2{
+                    background-image: url(../img/MilkFrother.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 313px;
+                    background-position: center;
+                }
+            
+                #rec3{
+                    background-image: url(../img/KnivesBlockSet.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 313px;
+                    background-position: center;
+                }
+            
+                #rec4{
+                    background-image: url(../img/Blenders.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 313px;
+                    background-position: center;
+                }
+           
     
         }
 
