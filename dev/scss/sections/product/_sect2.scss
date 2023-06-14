@@ -6,7 +6,9 @@
     margin-bottom: 16px;
     border-bottom: 0.5px solid black;
 
+
     #a0{
+        
         #a1{
             margin-bottom: 10px;
             text-align: center;
@@ -53,8 +55,23 @@
     
 
     @include xl{
+
+        p{
+            font-weight: 300;
+            font-size: rem-calc(16);
+            padding: 16px;
+            text-align: left;
+            
+        }
+        h1{
+            padding: 16px;
+            font-weight: 700;
+            font-size: rem-calc(48);
+            text-align: center;
+            align-items: center;
+        }
         #a0{
-            display: grid;
+        display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-areas: 
         "a1 a1 a2 a2"
@@ -99,11 +116,14 @@
                     background-position: center;
                 }
             }
-        
-            p{
-                padding: 16px;
-                text-align: left;
+            h3{
+                font-weight: 400;
+                font-size: rem-calc(36);
+                text-align: center;
             }
+            
+        
+            
         }
 
     }

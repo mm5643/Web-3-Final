@@ -1,7 +1,11 @@
 /* =============
     Typography
 ============= */
-
+h1{
+    font-weight: 700;
+    font-size: rem-calc(28);
+    text-align: center;
+}
 .producttext{
     h1{
         font-weight: 700;

@@ -5,32 +5,76 @@
         text-align: left;
     }
 
-    #hh1{
-        // gap: 10px;
-        padding: 10px 10px 16px 10px;
-        display: grid;
-        grid-template-columns: 50% auto;
-        
-        #hh11{
-            background-image: url(../img/alu_samples.jpg);
-            background-size: cover;
-            width: 169px;
-            height: 233px;
-            background-position: center;
+    #hh0{
+        #hh1{
+            // border: 1px solid red;
+            // gap: 10px;
+            padding: 10px 10px 16px 10px;
+            display: grid;
+            grid-template-columns: 50% auto;
+            
+            #hh11{
+                // border: 1px solid red;
+                background-image: url(../img/alu_samples.jpg);
+                background-size: cover;
+                width: 169px;
+                height: 233px;
+                background-position: center;
+            }
         }
+    
+        #hh2{
+            padding: 10px 10px 16px 10px;
+            display: grid;
+            grid-template-columns: 50% auto;
+            gap: 10px;
+            #hh22{
+                background-image: url(../img/Lifestyle_Image3.5.jpg);
+                background-size: cover;
+                width: 163px;
+                height: 233px;
+                background-position: center;
+            }
+        }
+
     }
 
-    #hh2{
-        padding: 10px 10px 16px 10px;
-        display: grid;
-        grid-template-columns: 50% auto;
-        gap: 10px;
-        #hh22{
-            background-image: url(../img/Lifestyle_Image3.5.jpg);
-            background-size: cover;
-            width: 163px;
-            height: 233px;
-            background-position: center;
+    
+
+    @include xl{
+        #hh0{
+            display: grid;
+            grid-template-columns: 50% auto;
+
+            #hh1{
+                aside{
+                    padding: 0px 10px 10px 10px;
+                }
+                // gap: 10px;
+                padding: 10px 10px 16px 10px;
+                #hh11{
+                    background-image: url(../img/alu_samples.jpg);
+                    background-size: cover;
+                    width: 100%;
+                    height: 297px;
+                    background-position: center;
+                }
+            }
+        
+            #hh2{
+                aside{
+                    padding: 0px 10px 10px 10px;
+                }
+                padding: 10px 10px 16px 10px;
+                #hh22{
+                    background-image: url(../img/Lifestyle_Image3.5.jpg);
+                    background-size: cover;
+                    width: 100%;
+                    height: 297px;
+                    background-position: center;
+                }
+            }
         }
+        
     }
 }

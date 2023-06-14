@@ -3,6 +3,8 @@
     border-bottom: 0.5px solid black;
     text-align: center;
     align-items: center;
+
+    
     h2{
         font-weight: 300;
         font-size: rem-calc(16);
@@ -27,26 +29,30 @@
         grid-template-columns: 50% auto;
 
         #r1{
+            
+            
             #rr1{
-                width: 136px;
+                width: 140px;
                 height: 200px;
                 padding: 16px;
                 background-color: black;
                 border-radius: 15px;
-                margin: 16px 0px 16px 16px;
+                margin: 16px 5px 16px 16px;
+
             }
             
     
         }
     
         #r2{
+            text-align: center;
             #rr2{
-                width: 136px;
+                width: 145px;
                 height: 200px;
                 padding: 16px;
                 background-color: black;
                 border-radius: 15px;
-                margin: 16px 5px 16px 5px;
+                margin: 16px 5px 16px 0px;
             }
             
         }
@@ -75,6 +81,12 @@
     }
 
     @include xl{    
+        h1{
+            font-weight: 700;
+                font-size: rem-calc(48);
+                text-align: center;
+                align-items: center;
+        }
         #r0{
             // background-color: black;
             display: grid;
@@ -112,14 +124,14 @@
 
     
             #r1{
-                border: 1px solid red;
+                // border: 1px solid red;
                 #rr1{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 20px;
-                    margin: 16px 5px 16px 16px;
+                    margin: 10px 5px 16px 16px;
                 }
                 
 
@@ -128,12 +140,12 @@
         
             #r2{
                 #rr2{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 20px;
-                    margin: 16px 5px 16px 16px;
+                    margin: 10px 5px 16px 16px;
                 }
 
             }
@@ -141,12 +153,12 @@
             #r3{
                 display: contents;
                 #rr3{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 20px;
-                    margin: 16px 5px 16px 16px;
+                    margin: 10px 5px 16px 16px;
 
                 }
 
@@ -157,12 +169,12 @@
             #r4{
                 display: contents;
                 #rr4{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 20px;
-                    margin: 16px 16px 16px 5px;
+                    margin: 10px 5px 16px 16px;
                 }
                 
                 
@@ -172,12 +184,12 @@
             #r5{
                 display: contents;
                 #rr5{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 15px;
-                    margin: 16px 5px 16px 16px;
+                    margin: 10px 5px 16px 16px;
                 }
                 
                 
@@ -186,12 +198,12 @@
             #r6{
                 display: contents;
                 #rr6{
-                    width: 850px;
+                    width: 875px;
                     height: 255px;
                     padding: 20px;
                     background-color: black;
                     border-radius: 20px;
-                    margin: 16px 16px 16px 5px;
+                    margin: 10px 5px 16px 16px;
                 }
                 
                 
