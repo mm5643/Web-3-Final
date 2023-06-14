@@ -624,6 +624,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Toaster 
+    Section 0
+============= */
 #toasters {
   text-align: center;
   margin-bottom: 16px;
@@ -733,6 +737,11 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Features &
+    Functionality
+    Section 1
+============= */
 #features {
   display: grid;
   grid-template-columns: 100%;
@@ -845,6 +854,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Awards
+    Section 2
+============= */
 #awards {
   display: grid;
   grid-template-columns: 100%;
@@ -951,6 +964,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Reviews
+    Section 3
+============= */
 #reviews {
   margin-bottom: 16px;
   border-bottom: 0.5px solid black;
@@ -1043,7 +1060,7 @@ footer #footersocial ul li button {
     color: white;
   }
   #reviews #r0 #r1 #rr1 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1051,7 +1068,7 @@ footer #footersocial ul li button {
     margin: 10px 5px 5px 16px;
   }
   #reviews #r0 #r2 #rr2 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1062,7 +1079,7 @@ footer #footersocial ul li button {
     display: contents;
   }
   #reviews #r0 #r3 #rr3 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1073,7 +1090,7 @@ footer #footersocial ul li button {
     display: contents;
   }
   #reviews #r0 #r4 #rr4 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1084,7 +1101,7 @@ footer #footersocial ul li button {
     display: contents;
   }
   #reviews #r0 #r5 #rr5 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1095,7 +1112,7 @@ footer #footersocial ul li button {
     display: contents;
   }
   #reviews #r0 #r6 #rr6 {
-    width: 640px;
+    width: 875px;
     height: 255px;
     padding: 20px;
     background-color: black;
@@ -1104,6 +1121,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    History
+    Section 4
+============= */
 #history {
   margin-bottom: 16px;
   border-bottom: 0.5px solid black;
@@ -1169,6 +1190,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Aesthetics
+    Section 5
+============= */
 #aesthetic {
   margin-bottom: 16px;
   display: grid;
@@ -1261,6 +1286,11 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Product 
+    Recommendations
+    Section 6
+============= */
 #recomend {
   margin-bottom: 16px;
 }
@@ -1344,6 +1374,10 @@ footer #footersocial ul li button {
   }
 }
 
+/* =============
+    Checkout
+    Section 2
+============= */
 #c1 {
   border-bottom: 0.5px solid black;
   text-align: center;
@@ -1411,6 +1445,10 @@ footer #footersocial ul li button {
     background-position: center;
   }
 }
+/* =============
+    Payment Option
+    Section 2
+============= */
 #p0 {
   border-bottom: 0.5px solid black;
   text-align: center;
@@ -1491,6 +1529,10 @@ footer #footersocial ul li button {
     height: 30px;
   }
 }
+/* =============
+    Delivery Option
+    Section 3
+============= */
 #d1 {
   border-bottom: 0.5px solid black;
   text-align: center;
@@ -1557,6 +1599,10 @@ footer #footersocial ul li button {
     height: 30px;
   }
 }
+/* =============
+    Review Product
+    Section 4
+============= */
 #r0 {
   text-align: center;
   display: grid;
@@ -1647,6 +1693,9 @@ footer #footersocial ul li button {
     grid-area: r4;
   }
 }
+/* =============
+    Thank You Page
+============= */
 #t1 {
   display: grid;
   grid-template-columns: 100%;
